@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+
+
+
+
+
+		<record id="o2clinic_clinic_doctor_action" model="ir.actions.act_window">
+			<field name="name">doctors</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">o2clinic.doctors</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form,tree,kanban</field>
+		</record>
+ 
+
+
+		<record id="o2clinic_clinic_doctor_assistants_action" model="ir.actions.act_window">
+			<field name="name">doctor_assistants</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">o2clinic.doctor.assistants</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form,tree,kanban</field>
+		</record>
+ 
+
+	
+ 
+
+
+
+	</data>
+</odoo>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+
+         
+   
+
+
+
+
+
+
+   <menuitem id="o2clinic_clinic_menu" name="Clinics"    />
+
+
+    <menuitem id="o2clinic_clinic_doctor"
+                  name="doctors" 
+                  parent="o2clinic_clinic_menu" 
+                  action="o2clinic_clinic_doctor_action"  />
+
+  <menuitem id="o2clinic_clinic_doctor_assistants"
+                  name="doctor assistants" 
+                  parent="o2clinic_clinic_menu" 
+                  action="o2clinic_clinic_doctor_assistants_action"  />
+ 
+    
+
+
+    
+
+ 
+
+
+	</data>
+</odoo>
